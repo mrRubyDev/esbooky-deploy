@@ -1,4 +1,4 @@
-const baseURL = "http://192.168.1.132:3000/";
+const baseURL = "http://localhost:3000/";
 
 export const getRooms = async () => {
 	return fetch(baseURL + "rooms")
